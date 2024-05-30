@@ -1,0 +1,32 @@
+input {
+    padding: 10px;
+    margin-right: 8px;
+    border-radius: 1px;
+}
+  
+.button {
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 200ms;
+}
+  
+.button:hover {
+    background-color: rgb(63, 63, 63);
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 60px;
+}
+  
+.images img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

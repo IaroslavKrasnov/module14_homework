@@ -1,0 +1,90 @@
+p {
+    color: white;
+}
+
+.form__input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 460px;
+    height: 300px;
+    border-radius: 16px;
+    background-color: #c8bdfc;
+    margin: 0 auto;
+}
+  
+.form__input p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.j-result {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #1577f8;
+}
+
+.input-area {
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 10px 10px;
+    margin: 5px auto;
+}
+
+.button-submit {
+    display: block;
+    padding: 10px 20px;
+    margin: 0 auto;
+    background-color: #3c91ff;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border: #65ff47;
+}
+
+.active_error {
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #d6000071;
+    margin: 0 auto;
+}
+
+.card-image {
+    display: block;
+}
+
+.card p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.error_number {
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: px;
+    font-size: 30px;
+}
+
+.error_number p {
+    text-align: center;
+    background-color: #f80606;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 15px;
+}
